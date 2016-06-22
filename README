@@ -1,0 +1,28 @@
+# fb-trace
+
+This tool will attempt to locate the ip address of a facebook user.
+
+# INSTALLATION #
+
+cd fb-trace
+
+chmod +x fb-trace
+
+# USAGE #
+
+./fb-trace
+
+Enter facebook ip address.
+
+Enter facebook user's first and last name.
+
+Enter facebook user ID number.
+
+# DISCLAIMER #
+
+I am not responsible for what you do with this, nor am I responsible for any damages.
+
+# NOTES #
+
+Not 100% to work. This tool attempts to use OpenDNS portals to Mitm monitor packets that have the information
+that you enter. Encrypted packets are cloned and saved as pcap format in /root/Desktop/fb-trace-#.pcap.
