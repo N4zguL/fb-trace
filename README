@@ -12,11 +12,15 @@ chmod +x fb-trace
 
 ./fb-trace
 
+Enter your interface (i.e. wlan0, eth0)
+
 Enter facebook ip address.
 
 Enter facebook user's first and last name.
 
-Enter facebook user ID number.
+Enter facebook user ID number (i.e. profile.php?=###############)
+                                                         ^
+                                                     This^ number
 
 # DISCLAIMER #
 
@@ -25,4 +29,4 @@ I am not responsible for what you do with this, nor am I responsible for any dam
 # NOTES #
 
 Not 100% to work. This tool attempts to use OpenDNS portals to Mitm monitor packets that have the information
-that you enter. Encrypted packets are cloned and saved as pcap format in /root/Desktop/fb-trace-#.pcap.
+that you enter. Data saved in fb-trace.txt in the same directory as fb-trace executable.
